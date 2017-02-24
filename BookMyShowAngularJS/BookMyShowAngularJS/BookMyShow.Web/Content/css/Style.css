@@ -1,0 +1,179 @@
+﻿body {
+    margin:0;
+    padding:0;
+}
+.main-container{
+   width:800px;
+   margin-left:auto;
+   margin-right:auto;
+}
+
+.head-banner{
+   background-color:white;
+}
+.head-banner h1{
+    color:black;
+    font-family:"Century Gothic";
+}
+.head-banner img{
+    float:right;
+    position:relative;
+    top:-62px;
+}
+.date-movie-container{
+    margin-left:295px;
+    margin-top:29px;
+   
+}
+.date-movie-container label{
+    font-family:Calibri;
+    font-size:19px;
+    padding-bottom:10px;
+}
+.date-movie-container select{
+    margin-top:10px;
+    width:120px;
+    font-family:Calibri;
+    font-size:14px;
+    padding:2px;
+}
+#select-theater-btn{
+    font-family:Calibri;
+    font-size:13px;
+    background-color:darkseagreen;
+    text-decoration:none;
+    color:white;
+    padding:3px;
+    position:relative;
+    top:12px;
+    /*display:none;*/
+}
+.theater-list{
+    margin-top:100px;
+}
+.theater {
+    margin-top:85px;
+}
+.theater h4{
+    font-family:sans-serif;
+    margin-bottom:0;
+}
+.theater a{
+    float:left;
+    margin-top:22px;
+    margin-right:62px;
+    color:dodgerblue;
+    text-decoration:none;
+}
+#btn-back{
+    margin-left:10px;
+    margin-top:47px;
+}
+.qty-type-selection{
+    margin-top:100px;
+    margin-bottom:16px;
+}
+.qty-type-selection select{
+    font-family:sans-serif;
+    margin-left:102px;
+    padding:2px;
+}
+.seat-selection-info{
+    width:121px;
+    float:left;
+    margin-left:45px;
+}
+.seat-selection-info p{
+    float:right;
+    font-family:Cambria;
+    margin:0;
+}
+.seats-container{
+    width:591px;
+    margin-left:106px;
+    float:left;
+}
+.seats-container h5{
+    font-family:Calibri;
+    font-size:15px;
+}
+#seatType{
+    margin-left:10px;
+}
+.seats-container img{
+    margin-top:15px;
+    float: left;
+    margin-right: 10px;
+}
+.seats-container p{
+    display:inline-block;
+    font-size:16px;
+    position:relative;
+   top:14px;
+}
+.seats-container button {
+   background-color: darkseagreen;
+   color: white;
+   padding:5px;
+   margin-top:34px;
+}
+.pointer{
+    cursor:pointer;
+}
+.movie-ticket{
+    border:1px solid black;
+    width:360px;
+    margin-bottom:15px;
+}
+.movie-ticket label{
+    display:inline;
+    float:left;
+    margin-right:10px;
+    margin-left:10px;
+    font-family:"Calibri";
+}
+.hidden {
+  display:none;
+}
+.premium-disabler{
+    background-color:black;
+    opacity:0.2;
+    z-index:10;
+    width:581px;
+    height:87px;
+    position:absolute;
+    margin-top:46px;
+}
+.standard-disabler{
+    background-color:black;
+    opacity:0.2;
+    z-index:10;
+    width:574px;
+    height:262px;
+    position:absolute;
+    margin-top:114px;
+}
+.poster{
+    margin-left:245px;
+}
+.poster img {
+        height: 300px;
+}
+.left{
+    float:left;
+    margin-left:0;
+}
+.right {
+    float: right;
+}
+.row{
+    position:absolute;
+    margin-top:51px;
+}
+.row span{
+    display:block;
+    margin-top:16px;
+}
+.space{
+    margin-top:65px!important;
+}

@@ -1,0 +1,29 @@
+.col-xs-4 {
+    background: #FFFFFF;
+    border-style: solid;
+    border-color: #F0F0F0;
+    height: 100%;
+}
+.jumbtron{
+    padding-left: 5cm;
+}
+
+#dae,  #assign, #name {
+    background: #F0F0F0  ;
+}
+
+#but
+{
+    background:  #707070;
+    border: none;
+    width: 7em;
+}
+
+.jumbtron{
+    background: #F0F0F0  ;
+}
+
+#tb{
+    border-style: solid;
+    border-color: #F0F0F0;
+}

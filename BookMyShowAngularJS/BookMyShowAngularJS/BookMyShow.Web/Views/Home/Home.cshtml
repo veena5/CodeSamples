@@ -1,0 +1,85 @@
+﻿<div ng-controller="HomeController">
+    <div ng-hide="hideMovies">
+        <div class="poster"><img src="~/Content/Images/A_Aa_Poster.jpg" /></div>
+        <div class="date-movie-container">
+            <label>Select Date And Movie:</label>
+            <div>
+                @*<input type="date" ng-change="getMovies()" ng-model="bookingInfo.showDate" max="2016-06-20" min="2016-06-16">*@
+                <select id="showDate" ng-change="getMovies()" ng-model="bookingInfo.showDate">
+                    <option value="">Select Date</option>
+                    <option value="6/16/2016">16/06/2016</option>
+                    <option value="6/17/2016">17/06/2016</option>
+                    <option value="6/18/2016">18/06/2016</option>
+                    <option value="6/19/2016">19/06/2016</option>
+                    <option value="6/20/2016">20/06/2016</option>
+                </select>
+            </div>
+            <div>
+                <select id="movies" ng-model="bookingInfo.movieId" ng-options="movie.id as movie.name for movie in movies">
+                    <option value="">Select  Movie</option>
+                </select>
+            </div>
+              <button id="select-theater-btn" ng-click="showTheaters()">Select Theaters</button>
+        </div>
+        <div class="poster left "><img src="~/Content/Images/xmen_apocalypse_poster.jpg" /></div>
+        <div class="poster right"><img src="~/Content/Images/Conjuring_2.jpg" /></div>
+    </div>
+    <div class="theaters-list" ng-show="showTheatersList">
+        <div ng-repeat="theater in theaters" class="theater">
+            <h4>{{ theater.name }}</h4>
+            <a class="pointer" ng-repeat="time in theater.showTimings.split(',')" ng-click=showSeats(theater.id,time)>{{time}}</a>
+        </div>
+        <button id="btn-back" ng-click="goBack()">Back</button>
+    </div>
+    <div ng-show="showSeatsContainer">
+        <div class="qty-type-selection">
+            <select id="quantity" ng-model="noOfSeats" ng-change="clearSelection()">
+                <option value=""> Select Quantity</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+            </select>
+            <select id="seatType" ng-model="seatType" ng-change="showDisabler();clearSelection()">
+                <option value="">Select Seat Type</option>
+                <option value="Premium">Premium</option>
+                <option value="Standard">Standard</option>
+            </select>
+        </div>
+        <div class="row"><span ng-repeat="row in rows" ng-class="{space:$index==noOfPremiumRows}">{{row}}</span></div>
+
+        <div class="seats-container">
+            <div class="premium-disabler" ng-show="premiumDisabler"></div>
+            <p>Premium Seats</p>
+            <div>
+                <img ng-repeat="seat in premiumArray" ng-src="{{seat.imageUrl}}" ng-disabled="disable={{seat.status!=1}}" ng-click="disable===true || selectSeat(seat.id)" id={{seat.id}} />
+            </div>
+            <div class="standard-disabler" ng-show="standardDisabler"></div>
+            <p>Standard Seats</p>
+            <div>
+                <img ng-repeat="seat in standardArray" ng-src="{{seat.imageUrl}}" ng-disabled="disable={{seat.status!=1}}" ng-click="disable===true || selectSeat(seat.id)" id={{seat.id}} />
+            </div>
+            <button ng-show="proceed" ng-click="bookSeats()">Proceed</button>
+
+        </div>
+    </div>
+
+    <div class="ticket-container" ng-show="showTicketContainer">
+
+        <h1>Congratulations</h1>
+        <p>Your Ticket(s) Have Been Booked</p>
+
+        <div class="movie-ticket">
+            <div><label>Movie Name:</label><p>{{vm.ticket.movieName}}</p></div>
+            <div> <label>Theater Name:</label><p>{{vm.ticket.theaterName}}</p></div>
+            <div><label>Date:</label><p>{{vm.ticket.showDate}}</p></div>
+            <div><label>Show Time:</label><p>{{vm.ticket.showTime }} hrs</p></div>
+            <div><label>Booked Seats:</label><p>{{vm.ticket.seatsBooked }}</p></div>
+        </div>
+        <button id="main-menu" ng-click="goToHome()">Back To Home</button>
+    </div>
+</div>
+
+
+

@@ -1,0 +1,29 @@
+C:\Users\pranav\Documents\Visual Studio 2013\Projects\ShoppingCart\ShoppingCart.Services\bin\Debug\ShoppingCart.Services.dll.config
+C:\Users\pranav\Documents\Visual Studio 2013\Projects\ShoppingCart\ShoppingCart.Services\bin\Debug\ShoppingCart.Services.dll
+C:\Users\pranav\Documents\Visual Studio 2013\Projects\ShoppingCart\ShoppingCart.Services\bin\Debug\ShoppingCart.Services.pdb
+C:\Users\pranav\Documents\Visual Studio 2013\Projects\ShoppingCart\ShoppingCart.Services\bin\Debug\AutoMapper.dll
+C:\Users\pranav\Documents\Visual Studio 2013\Projects\ShoppingCart\ShoppingCart.Services\bin\Debug\ShoppingCart.Models.dll
+C:\Users\pranav\Documents\Visual Studio 2013\Projects\ShoppingCart\ShoppingCart.Services\bin\Debug\ShoppingCart.Models.pdb
+C:\Users\pranav\Documents\Visual Studio 2013\Projects\ShoppingCart\ShoppingCart.Services\bin\Debug\AutoMapper.xml
+C:\Users\pranav\Documents\Visual Studio 2013\Projects\ShoppingCart\ShoppingCart.Services\obj\Debug\ShoppingCart.Services.csprojResolveAssemblyReference.cache
+C:\Users\pranav\Documents\Visual Studio 2013\Projects\ShoppingCart\ShoppingCart.Services\obj\Debug\ShoppingCart.Services.dll
+C:\Users\pranav\Documents\Visual Studio 2013\Projects\ShoppingCart\ShoppingCart.Services\obj\Debug\ShoppingCart.Services.pdb
+D:\Downloads\ShoppingCart\ShoppingCart.Services\bin\Debug\ShoppingCart.Services.dll.config
+D:\Downloads\ShoppingCart\ShoppingCart.Services\bin\Debug\ShoppingCart.Services.dll
+D:\Downloads\ShoppingCart\ShoppingCart.Services\bin\Debug\ShoppingCart.Services.pdb
+D:\Downloads\ShoppingCart\ShoppingCart.Services\bin\Debug\AutoMapper.dll
+D:\Downloads\ShoppingCart\ShoppingCart.Services\bin\Debug\ShoppingCart.Models.dll
+D:\Downloads\ShoppingCart\ShoppingCart.Services\bin\Debug\ShoppingCart.Models.pdb
+D:\Downloads\ShoppingCart\ShoppingCart.Services\bin\Debug\AutoMapper.xml
+D:\Downloads\ShoppingCart\ShoppingCart.Services\obj\Debug\ShoppingCart.Services.dll
+D:\Downloads\ShoppingCart\ShoppingCart.Services\obj\Debug\ShoppingCart.Services.pdb
+D:\Downloads\ShoppingCart\ShoppingCart.Services\obj\Debug\ShoppingCart.Services.csprojResolveAssemblyReference.cache
+C:\Users\pranav\Desktop\ShoppingCart\ShoppingCart\ShoppingCart.Services\bin\Debug\ShoppingCart.Services.dll.config
+C:\Users\pranav\Desktop\ShoppingCart\ShoppingCart\ShoppingCart.Services\bin\Debug\ShoppingCart.Services.dll
+C:\Users\pranav\Desktop\ShoppingCart\ShoppingCart\ShoppingCart.Services\bin\Debug\ShoppingCart.Services.pdb
+C:\Users\pranav\Desktop\ShoppingCart\ShoppingCart\ShoppingCart.Services\bin\Debug\AutoMapper.dll
+C:\Users\pranav\Desktop\ShoppingCart\ShoppingCart\ShoppingCart.Services\bin\Debug\ShoppingCart.Models.dll
+C:\Users\pranav\Desktop\ShoppingCart\ShoppingCart\ShoppingCart.Services\bin\Debug\ShoppingCart.Models.pdb
+C:\Users\pranav\Desktop\ShoppingCart\ShoppingCart\ShoppingCart.Services\bin\Debug\AutoMapper.xml
+C:\Users\pranav\Desktop\ShoppingCart\ShoppingCart\ShoppingCart.Services\obj\Debug\ShoppingCart.Services.dll
+C:\Users\pranav\Desktop\ShoppingCart\ShoppingCart\ShoppingCart.Services\obj\Debug\ShoppingCart.Services.pdb

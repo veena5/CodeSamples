@@ -1,0 +1,20 @@
+table {
+    width: 800px;
+}
+
+th {
+    text-align: left;
+    background-color: #efefef;
+    cursor: pointer;
+}
+
+label {
+    width: 180px;
+    display: inline-block;
+}
+
+.help-block {
+    font-size: 12px;
+    color: rgba(255, 0, 0, .7);
+    display: inline-block;
+}

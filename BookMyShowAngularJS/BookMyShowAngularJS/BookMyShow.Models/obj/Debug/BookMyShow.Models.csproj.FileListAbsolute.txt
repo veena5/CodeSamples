@@ -1,0 +1,5 @@
+C:\Users\pranav\Documents\Visual Studio 2013\Projects\BookMyShowAngularJS\BookMyShow.Models\bin\Debug\BookMyShow.Models.dll
+C:\Users\pranav\Documents\Visual Studio 2013\Projects\BookMyShowAngularJS\BookMyShow.Models\bin\Debug\BookMyShow.Models.pdb
+C:\Users\pranav\Documents\Visual Studio 2013\Projects\BookMyShowAngularJS\BookMyShow.Models\obj\Debug\BookMyShow.Models.csprojResolveAssemblyReference.cache
+C:\Users\pranav\Documents\Visual Studio 2013\Projects\BookMyShowAngularJS\BookMyShow.Models\obj\Debug\BookMyShow.Models.dll
+C:\Users\pranav\Documents\Visual Studio 2013\Projects\BookMyShowAngularJS\BookMyShow.Models\obj\Debug\BookMyShow.Models.pdb

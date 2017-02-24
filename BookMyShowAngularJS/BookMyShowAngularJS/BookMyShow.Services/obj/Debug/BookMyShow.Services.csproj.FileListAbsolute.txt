@@ -1,0 +1,10 @@
+C:\Users\pranav\Documents\Visual Studio 2013\Projects\BookMyShowAngularJS\BookMyShow.Services\bin\Debug\BookMyShow.Services.dll.config
+C:\Users\pranav\Documents\Visual Studio 2013\Projects\BookMyShowAngularJS\BookMyShow.Services\bin\Debug\BookMyShow.Services.dll
+C:\Users\pranav\Documents\Visual Studio 2013\Projects\BookMyShowAngularJS\BookMyShow.Services\bin\Debug\BookMyShow.Services.pdb
+C:\Users\pranav\Documents\Visual Studio 2013\Projects\BookMyShowAngularJS\BookMyShow.Services\bin\Debug\AutoMapper.dll
+C:\Users\pranav\Documents\Visual Studio 2013\Projects\BookMyShowAngularJS\BookMyShow.Services\bin\Debug\BookMyShow.Models.dll
+C:\Users\pranav\Documents\Visual Studio 2013\Projects\BookMyShowAngularJS\BookMyShow.Services\bin\Debug\BookMyShow.Models.pdb
+C:\Users\pranav\Documents\Visual Studio 2013\Projects\BookMyShowAngularJS\BookMyShow.Services\bin\Debug\AutoMapper.xml
+C:\Users\pranav\Documents\Visual Studio 2013\Projects\BookMyShowAngularJS\BookMyShow.Services\obj\Debug\BookMyShow.Services.csprojResolveAssemblyReference.cache
+C:\Users\pranav\Documents\Visual Studio 2013\Projects\BookMyShowAngularJS\BookMyShow.Services\obj\Debug\BookMyShow.Services.dll
+C:\Users\pranav\Documents\Visual Studio 2013\Projects\BookMyShowAngularJS\BookMyShow.Services\obj\Debug\BookMyShow.Services.pdb

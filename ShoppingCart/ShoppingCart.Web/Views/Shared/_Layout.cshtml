@@ -1,0 +1,88 @@
+﻿<!DOCTYPE html>
+<html ng-app="shoppingCart">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart</title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @Scripts.Render("~/bundles/Angularjs")
+    @Scripts.Render("~/bundles/app")
+    @*<link href="~/Content/css/Styles.css" rel="stylesheet" />
+    <script src="~/Scripts/AngularJs/angular.min.js"></script>
+    <script src="~/Scripts/AngularJs/angular-resource.min.js"></script>
+    <script src="~/Scripts/AngularJs/angular-ui-router.min.js"></script>
+    <script src="~/Scripts/app.js"></script>
+    <script src="~/Scripts/HomeController.js"></script>
+    <script src="~/Scripts/ShoppingCartService.js"></script>
+    <script src="~/Scripts/ShoppingCartRouting.js"></script>*@
+</head>
+<body ng-controller="HomeController">
+    <div class="container">
+
+        <div class="row">
+            <div class="col-sm-2 col-md-2 col-lg-2">
+                <img class="img-responsive" src="~/Content/Images/best_price_logo.jpg" alt="logo" />
+            </div>
+            <div class="col-sm-7 col-md-7 col-lg-7">
+                <input type="text" class="form-control search-margin-top" ng-keypress="searchResults=true" placeholder="Enter Product Name to Search" ng-model="search" />
+                <ul id="searchResults" class="search-results collapse in" ng-if="searchResults===true && search!==''" >
+                    <li ng-repeat="product in productsList | filter:{name:search}">
+                        <div class="row">
+                            <a data-toggle="collapse" data-target="#searchResults" ng-click="itemDetails(product)">
+                                <div class="col-sm-2"><img class="img-responsive" ng-src={{product.image}} alt="product image" /></div>
+                                <div class="col-sm-8"><p>{{product.name}}</p></div>
+                                <div class="col-sm-2"><p>${{product.price}}</p></div>
+                            </a>
+                        </div>
+                    </li>
+                </ul>
+
+            </div>
+            <div class="col-sm-3 col-md-3 col-lg-3" >
+                <a data-toggle="collapse" data-target="#cart" class="btn btn-primary cart-icon"><span class="glyphicon glyphicon-shopping-cart"></span><span class="badge">{{cartSize}}</span></a>
+                <div id="cart" class=" panel-collapse collapse">
+                    <div class="panel-body" ng-repeat="product in cart track by $index">
+                        <div class="row">
+                            <div class="col-sm-4"><img class="img-responsive" ng-src="{{product.image}}" alt="product image" /></div>
+                            <div class="col-sm-6"><p>{{product.name}}</p></div>
+                            <div class="col-sm-2"><p>${{product.price}}</p></div>
+                        </div>
+                   </div>
+                    <div class="panel-footer"><a ui-sref="cart" data-toggle="collapse" data-target="#cart" ng-click="viewCart()">View Cart</a></div>
+                </div>
+                 
+                
+            </div>
+        </div>
+        <nav class="navbar navbar-default">
+            <ul class="nav navbar-nav">
+                <li><a ui-sref="home">Home</a></li>
+                <li class="dropdown">
+                    <a class="dropdown-toggle pointer" data-toggle="dropdown">Clothes<span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a ui-sref="items" ng-click="showItems('clothes','men')">Men</a></li>
+                        <li><a ui-sref="items" ng-click="showItems('clothes','women')">Women</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a class="dropdown-toggle pointer" data-toggle="dropdown">Mobiles<span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a ui-sref="items" ng-click="showItems('mobile','apple')">Apple</a></li>
+                        <li><a ui-sref="items" ng-click="showItems('mobile','motorola')">Motorola</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a class="dropdown-toggle pointer" data-toggle="dropdown">TV's<span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a ui-sref="items" ng-click="showItems('tv','sony')">Sony</a></li>
+                        <li><a ui-sref="items" ng-click="showItems('tv','samsung')">Samsung</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+        @RenderBody()
+    </div>
+</body>
+</html>

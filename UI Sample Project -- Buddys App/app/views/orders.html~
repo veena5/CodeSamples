@@ -1,0 +1,11 @@
+<h2>Bio Data</h2>
+<table class="table table-striped">
+    <tr>
+        <th>Email</th>
+        <th>DOB</th>
+    </tr>
+    <tr>
+        <td>{{ order.bio[0].email }}</td>
+        <td>{{ order.bio[0].dob}}</td>
+    </tr>
+</table>

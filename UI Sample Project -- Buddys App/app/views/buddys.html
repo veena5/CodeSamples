@@ -1,0 +1,25 @@
+<div class="page-header">
+<h2>Buddys</h2>
+</div>
+ <input type="text"  class="form-control" placeholder="Search ::: Use this text box to search all the fields in the below table" ng-model="customerFilter.name" />
+<p></p>
+<h3><span class="label label-default">Click on the head of the table to sort by that field</span></h3><p></p>
+<table class="table table-striped">
+    <tr>
+        <th ng-click="doSort('name')">Username</th>
+        <th ng-click="doSort('lastname')">Lastname</th>
+        <th ng-click="doSort('firstname')">Firstname</th>
+        <th ng-click="doSort('status')">Status</th>
+
+        <th>&nbsp;</th>
+    </tr>
+    <tr ng-repeat="cust in customers | filter:customerFilter | orderBy:sortBy:reverse">
+        <td>{{ cust.name }}</td>
+        <td>{{ cust.lastname }}</td>
+        <td>{{ cust.firstname}}</td>
+        <td>{{ cust.status}}</td>
+        <td><a href="#/bio/{{ cust.id }}"  class="btn btn-primary">View Data</a></td>
+    </tr>
+</table>
+<br />
+<span>Total customers: {{ customers.length }}</span>

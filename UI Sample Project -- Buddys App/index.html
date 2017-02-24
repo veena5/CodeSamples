@@ -1,0 +1,28 @@
+<!doctype html>
+<html ng-app="customersApp">
+<head>
+    <title>App</title>
+  <!--  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet"> -->
+    <link href="http://bootswatch.com/cosmo/bootstrap.min.css" rel="stylesheet">
+    <link href="styles/styles.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div class ="container-fluid">
+<nav class="navbar navbar-default">
+    <ul class="nav navbar-nav">
+        <li><a href="#/signup">SignUp</a></li>
+        <li><a href="#/buddys">Buddys</a></li>
+    </ul>
+</nav>
+    <div ng-view></div>
+
+    <script src="scripts/angular.js"></script>
+    <script src="scripts/angular-route.js"></script>
+    <script src="app/app.js"></script>
+    <script src="app/controllers/signupc.js"></script>
+    <script src="app/controllers/BuddysController.js"></script>
+    <script src="app/controllers/BioController.js"></script>
+    <script src="app/controllers/pwdmatch.js"></script>
+</div>
+</body>
+</html>

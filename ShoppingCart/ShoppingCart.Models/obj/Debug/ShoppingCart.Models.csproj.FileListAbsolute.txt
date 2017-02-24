@@ -1,0 +1,10 @@
+C:\Users\pranav\Documents\Visual Studio 2013\Projects\ShoppingCart\ShoppingCart.Models\bin\Debug\ShoppingCart.Models.dll
+C:\Users\pranav\Documents\Visual Studio 2013\Projects\ShoppingCart\ShoppingCart.Models\bin\Debug\ShoppingCart.Models.pdb
+C:\Users\pranav\Documents\Visual Studio 2013\Projects\ShoppingCart\ShoppingCart.Models\obj\Debug\ShoppingCart.Models.csprojResolveAssemblyReference.cache
+C:\Users\pranav\Documents\Visual Studio 2013\Projects\ShoppingCart\ShoppingCart.Models\obj\Debug\ShoppingCart.Models.dll
+C:\Users\pranav\Documents\Visual Studio 2013\Projects\ShoppingCart\ShoppingCart.Models\obj\Debug\ShoppingCart.Models.pdb
+D:\Downloads\ShoppingCart\ShoppingCart.Models\bin\Debug\ShoppingCart.Models.dll
+D:\Downloads\ShoppingCart\ShoppingCart.Models\bin\Debug\ShoppingCart.Models.pdb
+D:\Downloads\ShoppingCart\ShoppingCart.Models\obj\Debug\ShoppingCart.Models.csprojResolveAssemblyReference.cache
+D:\Downloads\ShoppingCart\ShoppingCart.Models\obj\Debug\ShoppingCart.Models.dll
+D:\Downloads\ShoppingCart\ShoppingCart.Models\obj\Debug\ShoppingCart.Models.pdb

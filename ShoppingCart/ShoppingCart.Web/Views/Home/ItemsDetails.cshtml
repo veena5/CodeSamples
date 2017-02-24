@@ -1,0 +1,11 @@
+﻿<div class="row">
+    <div class="col-lg-4">
+        <h2>{{product.name}}</h2>
+       <img class="img-responsive" ng-src={{product.image}} alt="productImage" />
+    </div>
+    <div class="col-lg-8">
+        <h2>Description</h2>
+        <p>{{product.description}}</p>
+        <span class="btn btn-primary">${{product.price}}</span><span class="btn btn-success" ui-sref="home" ng-click="addToCart(product)">Add To Cart</span>
+    </div>
+</div>

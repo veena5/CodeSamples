@@ -1,0 +1,1 @@
+﻿angular.module("bookMyShow", ["ngResource", "ui.router"]);

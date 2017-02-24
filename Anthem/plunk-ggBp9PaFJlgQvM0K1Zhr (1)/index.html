@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html ng-app="app">
+<head>
+  <link data-require="bootstrap-css@*" data-semver="3.2.0" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="styles.css" />
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular.min.js"></script>
+  <script src="app.js"></script>
+</head>
+<body ng-controller="MainCtrl">
+  <h1>{{title}}</h1>
+  <form>
+    <label for="temperature">Add Temperature:</label>
+    <input id="temperature" type="number" name="temperture" ng-model="temperature" size="5">
+    <button ng-click="temperatureMonitor.recordTemperature()">Add</button>
+  </form>
+  <hr>
+  <section>
+    <button ng-click="temperatureMonitor.getCurrentMedian()">Get Median Temperture</button>
+    Current Median: {{median}}
+    <!-- display current media here-->
+  </section>
+<hr>
+  <a href="jasmine-test-runner.html">Run Unit Tests</a>
+</body>
+</html>
+

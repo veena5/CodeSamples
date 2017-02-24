@@ -1,0 +1,36 @@
+﻿<!DOCTYPE html>
+<html ng-app="bookMyShow">
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <link href="~/Content/Images/my_logo.png" rel="shortcut icon" />
+    <title>Book My Show</title>
+    @*@Styles.Render("~/bundles/StyleSheet")      
+    @Scripts.Render("~/bundles/AngularJs")
+    @Scripts.Render("~/bundles/app")
+    @Scripts.Render("~/bundles/jquery")*@
+    <link href="~/Content/css/Style.css" rel="stylesheet" />
+    <script src="~/Scripts/Angularjs/angular.min.js"></script>
+    <script src="~/Scripts/Angularjs/angular-resource.min.js"></script>
+    <script src="~/Scripts/Angularjs/angular-ui-router.min.js"></script>
+    <script src="~/Scripts/jquery/jquery-1.10.2.min.js"></script>
+    <script src="~/Scripts/app/app.js"></script>
+    <script src="~/Scripts/app/HomeController.js"></script>
+    <script src="~/Scripts/app/BookMyShowServices.js"></script>
+    <script src="~/Scripts/app/routing.js"></script>
+    
+</head>
+<body>
+
+    <div class="main-container">
+        <div class="head-banner">
+            <h1>MOVIE TICKET BOOKING</h1>
+            <img src="~/Content/Images/BMS_logo_new.png" alt="logo" />
+        </div>
+        <div ng-controller="HomeController">
+
+            @RenderBody()
+
+        </div>
+    </div>
+</body>
+</html>

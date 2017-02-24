@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookMyShow.Web", "BookMyShow.Web\BookMyShow.Web.csproj", "{36B4C032-F5DE-4FC2-86F3-5FED2101289C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookMyShow.Services", "BookMyShow.Services\BookMyShow.Services.csproj", "{692AE707-76AA-449B-A8F2-FCEDB66FD2CC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookMyShow.Models", "BookMyShow.Models\BookMyShow.Models.csproj", "{44E41DAE-1AF9-465E-B504-557DE8E6B33F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{36B4C032-F5DE-4FC2-86F3-5FED2101289C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36B4C032-F5DE-4FC2-86F3-5FED2101289C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36B4C032-F5DE-4FC2-86F3-5FED2101289C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36B4C032-F5DE-4FC2-86F3-5FED2101289C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{692AE707-76AA-449B-A8F2-FCEDB66FD2CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{692AE707-76AA-449B-A8F2-FCEDB66FD2CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{692AE707-76AA-449B-A8F2-FCEDB66FD2CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{692AE707-76AA-449B-A8F2-FCEDB66FD2CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{44E41DAE-1AF9-465E-B504-557DE8E6B33F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44E41DAE-1AF9-465E-B504-557DE8E6B33F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44E41DAE-1AF9-465E-B504-557DE8E6B33F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44E41DAE-1AF9-465E-B504-557DE8E6B33F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

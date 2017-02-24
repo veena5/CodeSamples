@@ -1,0 +1,7 @@
+﻿<div class="panel panel-default items" ng-repeat="product in itemsList">
+    <div class="panel-body">
+        <img class="img-responsive" ng-src="{{product.image}}" alt="productImage" />
+        <p>{{product.name}}</p>
+    </div>
+    <div class="panel-footer"><span class="label label-primary">${{product.price}}</span><span class="label label-info pointer" ng-click="itemDetails(product)"><span class="glyphicon glyphicon-list"></span>View Details</span></div>
+</div>

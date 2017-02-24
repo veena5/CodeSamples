@@ -1,0 +1,33 @@
+﻿<div class="table-responsive">
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Product Image</th>
+                <th>Product Name</th>
+                <th>Qunatity</th>
+                <th>Price</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr  ng-repeat="product in cart track by $index">
+                <td class="col-sm-1"><img class="img-responsive" ng-src={{product.image}} alt="product image" /></td>
+                <td class="col-sm-5">{{product.name}}</td>
+                <td class="col-sm-1"><input class="form-control  input-sm" type="number" ng-change="totalPrice()" value="{{product.quantity}}" min="1" max="10" ng-model="product.quantity" /></td>
+                <td class="col-sm-2">{{product.price | currency}}</td>
+                <td class="col-sm-3"><button class="btn btn-danger" ng-click="remove(product);totalPrice()">Remove</button></td>
+           </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>Total Price:{{total | currency}}</td>
+                <td><button class="btn btn-success btn-pay" ui-sref="home" ng-click="pay()">Pay</button></td>
+            </tr>
+        </tfoot>
+
+
+    </table>
+</div>
